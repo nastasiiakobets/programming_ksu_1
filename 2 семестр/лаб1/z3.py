@@ -1,0 +1,11 @@
+#3. Дано два ненульових числа. Знайти суму, різницю, добуток і частку їх квадратів#
+print('a = ')
+a=int(input())
+print('b = ')
+b=int(input())
+print('a = ', a)
+print('b = ', b)
+print('sum = ',a**2+b**2)
+print('riz = ', a**2-b**2)
+print('dob = ',(a**2)*(b**2))
+print('chastka = ',(a**2)/(b**2))
